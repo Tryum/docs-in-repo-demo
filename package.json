@@ -1,0 +1,14 @@
+{
+    "name": "docs",
+    "version": "1.0.0",
+    "devDependencies": {
+        "doctoc": "^2.0.0",
+        "markdown-link-check": "^3.10.3",
+        "markdownlint-cli": "^0.34.0"
+    },
+    "scripts": {
+        "toc": "doctoc docs/",
+        "lint": "markdownlint \"docs/**/*.md\"",
+        "check-links": "find docs -name \"*.md\" | xargs -n 1 npx markdown-link-check -c .linkcheck.json || true"
+    }
+}
