@@ -7,6 +7,7 @@ This is a simple Hello World project.
 ```bash
 python src/hello.py
 ```
+
 This will print "Hello, World" to the console.
 
 ```bash
