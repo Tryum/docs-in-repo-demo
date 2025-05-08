@@ -8,3 +8,4 @@ Welcome to the documentation!
 - [Usage](usage.md)
 - [How it works](how-it-works.md)
 - [API](api.md)
+<!-- - [Contributing](contributing.md) -->

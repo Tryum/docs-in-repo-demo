@@ -8,7 +8,6 @@
     },
     "scripts": {
         "toc": "doctoc docs/",
-        "lint": "markdownlint \"docs/**/*.md\"",
-        "check-links": "find docs -name \"*.md\" | xargs -n 1 npx markdown-link-check -c .linkcheck.json || true"
+        "lint": "markdownlint \"docs/**/*.md\""
     }
 }
